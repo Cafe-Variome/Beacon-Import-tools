@@ -1,10 +1,11 @@
-A running mongoDB is required for these scripts to work, this should be the same DB as what the central beacon index will connect to
+SpreadSheetImporter.py allows for the uploading of information from a formatted spreadsheet into a MongoDB instance.
 
-To use BeaconImporter.py call it from the CLI using basically any version of python, should be fine with any version 3.6+
-The endpoints which are queried are defined in Shared/conf.py.
+test_spreadsheet.xlsx has been provided as an example spreadsheet to ensure this tool works correctly when installed but also acts as a template file which should be adhered to for data imports.
 
-To use SpreadSheetImporter.py call it from the CLI but add a -f argument, the value of which is the absolute path to the spreadsheet file to import.
-This script only accepts XLSX files for now, additional parsers can be added (such as csv) and I am happy to make these if needed.
+A running mongoDB is required for the script to work.
+
+To use SpreadSheetImporter.py call it from the CLI with an -f argument, the value of which is the absolute path to the spreadsheet file to import.
+This script only accepts XLSX files, additional parsers can be added as required.
 Only a single file can be passed to this script, to handle a list of files then a wrapper script which calls spreadsheetimporter.py should be used.
 test_spreadsheet.xlsx is provided as an example spreadsheet
 

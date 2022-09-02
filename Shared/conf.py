@@ -7,12 +7,3 @@ database_user = False
 database_name = 'beacon'
 database_auth_source = False
 database_password = False
-
-
-#
-# Beacon Instances to check
-#
-
-endpoints = [
-	"https://www508.lamp.le.ac.uk/api"
-]
