@@ -1,4 +1,5 @@
-SpreadSheetImporter.py allows for the uploading of information from a formatted spreadsheet into a MongoDB instance.
+SpreadSheetImporter.py allows for the uploading of information from a formatted spreadsheet into a MongoDB instance. This script connects to the same
+mongoDB instance as the Beacon-in-a-box by default.
 
 test_spreadsheet.xlsx has been provided as an example spreadsheet to ensure this tool works correctly when installed but also acts as a template file which should be adhered to for data imports.
 
